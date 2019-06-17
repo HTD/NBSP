@@ -34,7 +34,7 @@ namespace NBSP {
         /// <param name="sender">This.</param>
         /// <param name="e">Event arguments.</param>
         private void GlobalInput_KeyDown(object sender, GlobalKeyEventArgs e) {
-            if (e.KeyData == (Keys.Control | Keys.Space)) {
+            if ((e.KeyData & ~Keys.Shift) == (Keys.Control | Keys.Space)) { // Ctrl+Space, Shift+Ctrl+Space
                 e.IsHandled = true;
                 GlobalInput.Paste(NBSP);
             }

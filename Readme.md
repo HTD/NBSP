@@ -13,7 +13,7 @@ So with my little tool YOU CAN. Just run the program, then Press Ctrl+Space in a
 
 It's very useful when preparing Unicode text for HTML, XML, XAML or others.
 
-Of course, the text format you use must support any kind of Unicode.
+Of course, the text format you use must support any kind of Unicode. BTW, Shift+Ctrl+Space works as well and insert the same non-breaking space.
 
 ### Point of interest
 
